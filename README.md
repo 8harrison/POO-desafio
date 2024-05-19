@@ -1,35 +1,3 @@
 # POO-desafio
-[![](https://mermaid.ink/img/pako:eNplksFOwzAMhl8lymkIeIGKCxoXDqCJoZ16cRPTWaR25SQTrOzdybpuYyyn-LeT_7OTwTrxaCvrAsT4RNAqdDU_L9bCaB5-7u_NG_YqPifRlxzJQbhMP_agGNbyjgE_hMnJZf4VNtiCF33mhMqYjunK3HrJTUATnSLykrZYc80jybXrULMp65Y4mY2E3OEkNCIBgQ3FRYBv4nbSoZRwAl2NxbObSfbUEWf6LydxoKeohxz_hLH05kgYJpjZMmkxMt0YlardGfx6HsM_0DXEJbW8H-SoB2qL13QlFyiVozEkZI9nECr3EehcVJFkJdvZpfnVsM1wNaV5mb1L6KcEflFDuoCW-NRX1nAi8HTo_FU28NjA7IyWIdAWjkf3IPbOFvoOyJcfNTrXNq2xPJWtytaDftb2UAflaZff7GyVNOOdzb0vzU4f0FYfECLufgE-meiK?type=png)](https://mermaid.live/edit#pako:eNplksFOwzAMhl8lymkIeIGKCxoXDqCJoZ16cRPTWaR25SQTrOzdybpuYyyn-LeT_7OTwTrxaCvrAsT4RNAqdDU_L9bCaB5-7u_NG_YqPifRlxzJQbhMP_agGNbyjgE_hMnJZf4VNtiCF33mhMqYjunK3HrJTUATnSLykrZYc80jybXrULMp65Y4mY2E3OEkNCIBgQ3FRYBv4nbSoZRwAl2NxbObSfbUEWf6LydxoKeohxz_hLH05kgYJpjZMmkxMt0YlardGfx6HsM_0DXEJbW8H-SoB2qL13QlFyiVozEkZI9nECr3EehcVJFkJdvZpfnVsM1wNaV5mb1L6KcEflFDuoCW-NRX1nAi8HTo_FU28NjA7IyWIdAWjkf3IPbOFvoOyJcfNTrXNq2xPJWtytaDftb2UAflaZff7GyVNOOdzb0vzU4f0FYfECLufgE-meiK)
 
-
-
-
-classDiagram
-IPhone <|-- ReprodutorMusical
-IPhone <|-- AparelhoTelefonico
-IPhone <|-- NavegadorInternet
-IPhone: +double screenSize
-
-class ReprodutorMusical{
-    +int volume
-    +boolean isPlaying
-    +aumentarVolume()
-    +diminuirVolume()
-    +tocar()
-    +pausar()
-    +selecionarMusica(String musica)
-}
-
-class AparelhoTelefonico{
-    +boolean hasSignal
-    +ligar(String numero)
-    +atender()
-    +iniciarCorreioVoz()
-}
-
-class NavegadorInternet {
-    +boolean isConected
-    +exibirPagina(String url)
-    +adicionarNovaAba()
-    +atualizarPagina()
-}
+[![](https://mermaid.ink/img/pako:eNplksFOwzAMhl8lymmI8QIVFwQXDqCJoZ16cRPTWqT25CQTbOzdybp13bSc4vzx_9lOdtaJR1tZFyDGF4JWoa_5ddEJo3n8e3gwH7hW8TmJvuVIDsK1_LQGxdDJJwb8EiYn1_o7bLAFL_rKCZUxjXJl7r3kJqCJThF5SVu80IiT2UjI_XR434gEBDYdxCW1PJUySRSfS-wS-kmDYsIJdDXYze4mxVNPnOlCqXmYxG3Xu5pNWRegRYBf4vZ0nsSBHhyGaA05XoSxDMeRMJzcZsukJdX0Q1Ru7Sfy7UBHdKC2eJ5SuRSsMgIgIXucgFTyCPRZVJFkJdvZNeTmVcwIwR9qSBfQEp_LzBrOIE_HRt5lA08NzKYKMgTawph64Nm5LUX2QL78sAFQ29RheVJbla0H_a7t8R6UUS9_2dkqaca5zWtfejp9SFt9QYi4_weCpPKb?type=png)](https://mermaid.live/edit#pako:eNplksFOwzAMhl8lymmI8QIVFwQXDqCJoZ16cRPTWqT25CQTbOzdybp13bSc4vzx_9lOdtaJR1tZFyDGF4JWoa_5ddEJo3n8e3gwH7hW8TmJvuVIDsK1_LQGxdDJJwb8EiYn1_o7bLAFL_rKCZUxjXJl7r3kJqCJThF5SVu80IiT2UjI_XR434gEBDYdxCW1PJUySRSfS-wS-kmDYsIJdDXYze4mxVNPnOlCqXmYxG3Xu5pNWRegRYBf4vZ0nsSBHhyGaA05XoSxDMeRMJzcZsukJdX0Q1Ru7Sfy7UBHdKC2eJ5SuRSsMgIgIXucgFTyCPRZVJFkJdvZNeTmVcwIwR9qSBfQEp_LzBrOIE_HRt5lA08NzKYKMgTawph64Nm5LUX2QL78sAFQ29RheVJbla0H_a7t8R6UUS9_2dkqaca5zWtfejp9SFt9QYi4_weCpPKb)
